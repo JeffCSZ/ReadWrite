@@ -1,0 +1,16 @@
+E:\SZDev\sznet_training\conCsv\ConsoleFile_ReadWrite\obj\Debug\net8.0\ConsoleFile_ReadWrite.GeneratedMSBuildEditorConfig.editorconfig
+E:\SZDev\sznet_training\conCsv\ConsoleFile_ReadWrite\obj\Debug\net8.0\ConsoleFile_ReadWrite.AssemblyInfoInputs.cache
+E:\SZDev\sznet_training\conCsv\ConsoleFile_ReadWrite\obj\Debug\net8.0\ConsoleFile_ReadWrite.AssemblyInfo.cs
+E:\SZDev\sznet_training\conCsv\ConsoleFile_ReadWrite\obj\Debug\net8.0\ConsoleFile_ReadWrite.csproj.CoreCompileInputs.cache
+E:\SZDev\sznet_training\conCsv\ConsoleFile_ReadWrite\obj\Debug\net8.0\ConsoleFile_ReadWrite.sourcelink.json
+E:\SZDev\sznet_training\conCsv\ConsoleFile_ReadWrite\bin\Debug\net8.0\ConsoleFile_ReadWrite.exe
+E:\SZDev\sznet_training\conCsv\ConsoleFile_ReadWrite\bin\Debug\net8.0\TestData.csv
+E:\SZDev\sznet_training\conCsv\ConsoleFile_ReadWrite\bin\Debug\net8.0\ConsoleFile_ReadWrite.deps.json
+E:\SZDev\sznet_training\conCsv\ConsoleFile_ReadWrite\bin\Debug\net8.0\ConsoleFile_ReadWrite.runtimeconfig.json
+E:\SZDev\sznet_training\conCsv\ConsoleFile_ReadWrite\bin\Debug\net8.0\ConsoleFile_ReadWrite.dll
+E:\SZDev\sznet_training\conCsv\ConsoleFile_ReadWrite\bin\Debug\net8.0\ConsoleFile_ReadWrite.pdb
+E:\SZDev\sznet_training\conCsv\ConsoleFile_ReadWrite\obj\Debug\net8.0\ConsoleFile_ReadWrite.dll
+E:\SZDev\sznet_training\conCsv\ConsoleFile_ReadWrite\obj\Debug\net8.0\refint\ConsoleFile_ReadWrite.dll
+E:\SZDev\sznet_training\conCsv\ConsoleFile_ReadWrite\obj\Debug\net8.0\ConsoleFile_ReadWrite.pdb
+E:\SZDev\sznet_training\conCsv\ConsoleFile_ReadWrite\obj\Debug\net8.0\ConsoleFile_ReadWrite.genruntimeconfig.cache
+E:\SZDev\sznet_training\conCsv\ConsoleFile_ReadWrite\obj\Debug\net8.0\ref\ConsoleFile_ReadWrite.dll
