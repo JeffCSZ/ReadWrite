@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleFile_ReadWrite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30fd2523c3949e087ea22d4a8bdcfd4a4b68a267")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c1c643ff1ab25d18d1cc44a768ba23a60ca43fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsoleFile_ReadWrite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsoleFile_ReadWrite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

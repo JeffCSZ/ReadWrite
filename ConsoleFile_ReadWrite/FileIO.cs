@@ -10,15 +10,15 @@ namespace ConsoleFile_ReadWrite
 	{
 		public string ReadData(string fileName)
 		{
-			// high level using StreamReader
-			//using (var sr = new StreamReader(fileName))  //old way of wrting
-			//{
-			//	var data = sr.ReadToEnd();
-			//	sr.Close();
-			//	sr.Dispose();
-			//	return data;
+			//high level using StreamReader
+			using (var sr = new StreamReader(fileName))  //old way of wrting
+			{
+				var data = sr.ReadToEnd();
+				sr.Close();
+				sr.Dispose();
+				return data;
 
-			//}
+			}
 
 			//using var sr = new StreamReader(fileName);
 			//var data= sr.ReadToEnd();
@@ -28,31 +28,58 @@ namespace ConsoleFile_ReadWrite
 
 			// low level using File
 			//using var fs = File.OpenRead(fileName);
-			using var fs = File.Open(fileName, FileMode.Open);
-			var b = new byte[fs.Length];
-			fs.Read(b, 0, b.Length);
-			//convert byte[] to string
-			var s = UTF8Encoding.UTF8.GetString(b);
-			return s;
-
+			//using var fs = File.Open(fileName, FileMode.Open);
+			//var b = new byte[fs.Length];
+			//fs.Read(b, 0, b.Length);
+			////convert byte[] to string
+			//var s = UTF8Encoding.UTF8.GetString(b);
+			//return s;
 
 		}
 
-		public void WriteData(string fileName, string data)
+		public void ReadWriteFile(string readFileName, string writeFileName)
 		{
-			// high level using StreamWriter 
-			//using var fs = new StreamWriter(fileName);
-			//fs.Write(data, 0, data.Length);
-			////fs.WriteLine(data);
-			//fs.Close();
-
-			// low level using File
-			var fs = File.Open(fileName, FileMode.Create);
-			//Convert string to byte[]
-			var b = UTF8Encoding.UTF8.GetBytes(data);
-			fs.Write(b, 0, b.Length);
+			DeleteFile(writeFileName);
+			var fs = new StreamReader(readFileName);
+			while (!fs.EndOfStream)
+			{
+				var line = fs.ReadLine();
+				WriteLine(writeFileName, line);
+			}
 			fs.Close();
+		}
 
+		//public void WriteData(string fileName, string data)
+		//{
+		//	// high level using StreamWriter 
+		//	//using var fs = new StreamWriter(fileName);
+		//	//fs.Write(data, 0, data.Length);
+		//	////fs.WriteLine(data);
+		//	//fs.Close();
+
+		//	// low level using File
+		//	var fs = File.Open(fileName, FileMode.Create);
+		//	//Convert string to byte[]
+		//	var b = UTF8Encoding.UTF8.GetBytes(data);
+		//	fs.Write(b, 0, b.Length);
+		//	fs.Close();
+
+
+		//}
+
+		public void WriteLine(string fileName, string line)
+		{
+			using var fs = new StreamWriter(fileName, true);
+			fs.WriteLine(line);
+			fs.Close();
+		}
+
+		public void DeleteFile(string fileName)
+		{
+			if (File.Exists(fileName))
+			{
+				File.Delete(fileName);
+			}
 		}
 	}
 }
