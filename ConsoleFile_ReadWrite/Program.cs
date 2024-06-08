@@ -20,7 +20,13 @@ class Program
 
 
 		var c = new FileIO();
-		c.ReadWriteFile("TestData.csv", "Test.csv");
+		//c.ReadWriteFile("TestData.csv", @"C:\Users\tc\Test.csv");
+		var depts = c.GetDepartments("TestData.csv");  //IEnum
+		//for (int i = 0; i<depts.Count; i++) {
+		foreach (var dept in depts) 
+		{
+			Console.WriteLine(dept);
+		}
 		Console.WriteLine("Done");
 		Console.ReadLine();
 	}

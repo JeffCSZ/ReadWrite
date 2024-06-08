@@ -21,6 +21,25 @@ namespace employeeApi.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("employeeApi.Models.Department", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("DepartmentName")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)")
+                        .HasColumnName("Dept");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Departments");
+                });
+
             modelBuilder.Entity("employeeApi.Models.Employee", b =>
                 {
                     b.Property<int>("Id")

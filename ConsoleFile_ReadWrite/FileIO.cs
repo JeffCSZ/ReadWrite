@@ -81,5 +81,32 @@ namespace ConsoleFile_ReadWrite
 				File.Delete(fileName);
 			}
 		}
+
+		public List<string> GetDepartments(string fileName)
+		{
+			using var fs = new StreamReader(fileName);
+			var departments = new List<string>();
+			int count = 0;
+			while (!fs.EndOfStream)
+			{
+				var line = fs.ReadLine();
+				if (count >= 3)
+				{
+					var fields = line.Split(",");
+					var dept = fields[5].Replace("\"", "").TrimStart().TrimEnd();
+					if (departments.Contains(dept))
+					{
+						continue;
+					}
+					else
+					{
+						departments.Add(dept);
+					}
+				}
+				count++;
+			}
+			fs.Close();
+			return departments;
+		}
 	}
 }

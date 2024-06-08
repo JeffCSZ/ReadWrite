@@ -17,6 +17,8 @@ GetConnectionString("SgLong")));
 
 
 builder.Services.AddScoped<IEmployeeRepo, EmployeeRepo>();
+builder.Services.AddScoped<IDepartmentRepo, DepartmentRepo>();
+
 
 var app = builder.Build();
 

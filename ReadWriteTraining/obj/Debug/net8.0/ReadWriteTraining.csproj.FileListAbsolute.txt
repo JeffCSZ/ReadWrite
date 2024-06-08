@@ -1,0 +1,16 @@
+E:\SZDev\ReadWrite\ReadWriteTraining\bin\Debug\net8.0\ReadWriteTraining.exe
+E:\SZDev\ReadWrite\ReadWriteTraining\bin\Debug\net8.0\TestData.csv
+E:\SZDev\ReadWrite\ReadWriteTraining\bin\Debug\net8.0\ReadWriteTraining.deps.json
+E:\SZDev\ReadWrite\ReadWriteTraining\bin\Debug\net8.0\ReadWriteTraining.runtimeconfig.json
+E:\SZDev\ReadWrite\ReadWriteTraining\bin\Debug\net8.0\ReadWriteTraining.dll
+E:\SZDev\ReadWrite\ReadWriteTraining\bin\Debug\net8.0\ReadWriteTraining.pdb
+E:\SZDev\ReadWrite\ReadWriteTraining\obj\Debug\net8.0\ReadWriteTraining.GeneratedMSBuildEditorConfig.editorconfig
+E:\SZDev\ReadWrite\ReadWriteTraining\obj\Debug\net8.0\ReadWriteTraining.AssemblyInfoInputs.cache
+E:\SZDev\ReadWrite\ReadWriteTraining\obj\Debug\net8.0\ReadWriteTraining.AssemblyInfo.cs
+E:\SZDev\ReadWrite\ReadWriteTraining\obj\Debug\net8.0\ReadWriteTraining.csproj.CoreCompileInputs.cache
+E:\SZDev\ReadWrite\ReadWriteTraining\obj\Debug\net8.0\ReadWriteTraining.sourcelink.json
+E:\SZDev\ReadWrite\ReadWriteTraining\obj\Debug\net8.0\ReadWriteTraining.dll
+E:\SZDev\ReadWrite\ReadWriteTraining\obj\Debug\net8.0\refint\ReadWriteTraining.dll
+E:\SZDev\ReadWrite\ReadWriteTraining\obj\Debug\net8.0\ReadWriteTraining.pdb
+E:\SZDev\ReadWrite\ReadWriteTraining\obj\Debug\net8.0\ReadWriteTraining.genruntimeconfig.cache
+E:\SZDev\ReadWrite\ReadWriteTraining\obj\Debug\net8.0\ref\ReadWriteTraining.dll

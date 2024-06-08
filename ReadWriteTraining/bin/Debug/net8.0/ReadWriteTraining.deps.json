@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ReadWriteTraining/1.0.0": {
+        "runtime": {
+          "ReadWriteTraining.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ReadWriteTraining/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
