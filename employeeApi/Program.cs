@@ -13,11 +13,14 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<MyDBContext>(options =>
 options.UseSqlServer(builder.Configuration.
-GetConnectionString("SgLong")));
+GetConnectionString("Midah")));
 
 
 builder.Services.AddScoped<IEmployeeRepo, EmployeeRepo>();
 builder.Services.AddScoped<IDepartmentRepo, DepartmentRepo>();
+builder.Services.AddScoped<IRegionRepo, RegionRepo>();
+builder.Services.AddScoped<IStateRepo, StateRepo>();
+builder.Services.AddScoped<ILocationRepo, LocationRepo>();
 
 
 var app = builder.Build();

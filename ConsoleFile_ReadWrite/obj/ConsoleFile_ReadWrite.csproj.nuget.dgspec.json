@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\SZDev\\ReadWrite\\ConsoleFile_ReadWrite\\ConsoleFile_ReadWrite.csproj": {}
+    "C:\\SZCode\\New_Lessons\\Week2\\D5\\ReadWrite\\ReadWrite\\ConsoleFile_ReadWrite\\ConsoleFile_ReadWrite.csproj": {}
   },
   "projects": {
-    "E:\\SZDev\\ReadWrite\\ConsoleFile_ReadWrite\\ConsoleFile_ReadWrite.csproj": {
+    "C:\\SZCode\\New_Lessons\\Week2\\D5\\ReadWrite\\ReadWrite\\ConsoleFile_ReadWrite\\ConsoleFile_ReadWrite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SZDev\\ReadWrite\\ConsoleFile_ReadWrite\\ConsoleFile_ReadWrite.csproj",
+        "projectUniqueName": "C:\\SZCode\\New_Lessons\\Week2\\D5\\ReadWrite\\ReadWrite\\ConsoleFile_ReadWrite\\ConsoleFile_ReadWrite.csproj",
         "projectName": "ConsoleFile_ReadWrite",
-        "projectPath": "E:\\SZDev\\ReadWrite\\ConsoleFile_ReadWrite\\ConsoleFile_ReadWrite.csproj",
-        "packagesPath": "C:\\Users\\TC\\.nuget\\packages\\",
-        "outputPath": "E:\\SZDev\\ReadWrite\\ConsoleFile_ReadWrite\\obj\\",
+        "projectPath": "C:\\SZCode\\New_Lessons\\Week2\\D5\\ReadWrite\\ReadWrite\\ConsoleFile_ReadWrite\\ConsoleFile_ReadWrite.csproj",
+        "packagesPath": "C:\\Users\\JeffChan\\.nuget\\packages\\",
+        "outputPath": "C:\\SZCode\\New_Lessons\\Week2\\D5\\ReadWrite\\ReadWrite\\ConsoleFile_ReadWrite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JeffChan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

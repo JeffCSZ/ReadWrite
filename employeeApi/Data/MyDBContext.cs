@@ -22,6 +22,8 @@ namespace employeeApi.Data
 		public DbSet<Employee> Employees { get; set; }
 
 		public DbSet<Department> Departments { get; set; }
-
-	}
+        public DbSet<Location> Location { get; set; }
+        public DbSet<Region> Region { get; set; }
+        public DbSet<State> State { get; set; }
+    }
 }

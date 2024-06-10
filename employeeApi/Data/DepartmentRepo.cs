@@ -8,7 +8,7 @@ namespace employeeApi.Data
 		public List<Department> GetDepartments()
 		{
 			var reader = new ReadData();
-		    var departmentString = reader.GetDepartments("TestData.csv");
+		    var departmentString = reader.DeptLocRegionState("TestData.csv");
 			foreach (var d in departmentString)
 			{
 				_dbContext.Departments.Add(new Department() {DepartmentName = d } );

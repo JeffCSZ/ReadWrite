@@ -60,10 +60,10 @@ public class ReadData
 		return this;
     }
 
-	public List<string> GetDepartments(string fileName)
+	public List<string> DeptLocRegionState(string fileName)
 	{
 		using var fs = new StreamReader(fileName);
-		var departments = new List<string>();
+		var str = new List<string>();
 		int count = 0;
 		while (!fs.EndOfStream)
 		{
@@ -71,22 +71,30 @@ public class ReadData
 			if (count >= 3)
 			{
 				var fields = line.Split(",");
-				var dept = fields[5].Replace("\"", "").TrimStart().TrimEnd();
-				if (departments.Contains(dept))
+				var str1 = fields[5].Replace("\"", "").TrimStart().TrimEnd();
+                var str2 = fields[7].Replace("\"", "").TrimStart().TrimEnd();
+                var str3 = fields[8].Replace("\"", "").TrimStart().TrimEnd();
+                var str4 = fields[9].Replace("\"", "").TrimStart().TrimEnd();
+				if (!str.Contains(str1))
 				{
-					continue;
+					str.Add(str1);
 				}
+				else if (!str.Contains(str2))
+				{ str.Add(str2); }
+				else if (!str.Contains(str3))
+				{ str.Add(str3); }
+				else if (str.Contains(str4))
+				{ str.Add(str4); }
 				else
 				{
-					departments.Add(dept);
+					continue;
 				}
 			}
 			count++;
 		}
 		fs.Close();
-		return departments;
+		return str;
 	}
-
 }
 
 

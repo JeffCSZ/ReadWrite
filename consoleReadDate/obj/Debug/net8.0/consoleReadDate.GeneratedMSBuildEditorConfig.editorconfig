@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = consoleReadDate
-build_property.ProjectDir = E:\SZDev\ReadWrite\consoleReadDate\
+build_property.ProjectDir = C:\SZCode\New_Lessons\Week2\D5\ReadWrite\ReadWrite\consoleReadDate\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
